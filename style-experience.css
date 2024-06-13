@@ -1,0 +1,133 @@
+/*Barra Navegación*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+    font-weight: bold;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#titulo {
+    color: chocolate;
+    border-style:inset;
+    border-radius: 1cqi;
+    font-size: 30px;
+    text-align: center;
+}
+
+#titulodos {
+    color: chocolate;
+    border-style:inset;
+    border-radius: 1cqi;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Asignar css al html work-experience*/
+#profile-me {
+  color: chocolate;
+  border-style:inset;
+  border-radius: 1cqi;
+  font-size: 28px;
+  text-align: center;
+}
+
+#profile-me-text {
+  color: black;
+  font-size: 24;
+  text-align: justify;
+}
+
+#text-empresa {
+  color: chocolate;
+  border-style:inset;
+  border-radius: 1cqi;
+  font-size: 30px;
+  text-align: center;
+}
+
+#text-emtelco {
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+}
+
+#text-vinotinto {
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+}
+
+#text-responsabilidad {
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+}
+
+#text-logros {
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+}
+
+#text-contact-me {
+  color: chocolate;
+  border-style:inset;
+  border-radius: 1cqi;
+  font-size: 30px;
+  text-align: center;
+}
+
+#text-email {
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+}
+
+#text-phone {
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+}
+
+#text-linkedin {
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+}
+
+/*Cambiar fuente y color con selector universal*/
+* {
+    /*font-size: 18px;*/
+    font-style: normal;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/*Agregar box model margen,padding,border*/
+.margen {
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+    height: 100px;
+}
+
+img {
+    background-image: url(imagen\ mia.jpg);
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
